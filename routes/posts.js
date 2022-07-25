@@ -4,6 +4,7 @@ import { getPosts, getPost, createPost, updatePost, likePost, deletePost } from 
 
 const router = express.Router();
 
+//I am just writing them :---
 router.get('/', getPosts);
 router.post('/', createPost);
 router.get('/:id', getPost);
